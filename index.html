@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+</head>
+<body>
+
+  <meta http-equiv="refresh" content="999">
+<!--aala motha shana-->
+<!--date and time --> 
+Get Current Date and Time Both:
+<input type="text" id="currentDateTime">
+<br><br>
+<script>
+  var today = new Date();
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+var dateTime = date+' '+time;
+  document.getElementById("currentDateTime").value = dateTime;
+</script>
+
+
+
+
+
+
+
+<h1><b>1. Headings</b></h1><br>
+There are six headings available in HTML, H1 is the largest among all, and H6 is the smallest.
+
+<h1>Heading 1</h1>
+
+<h2>Heading 2</h2>
+
+<h3>Heading 3</h3>
+
+<h4>Heading 4</h4>
+
+<h5>Heading 5</h5>
+
+<h6>Heading 6</h6><br><br>
+
+
+
+<hr >
+
+
+
+
+<h1><b>2. Container</b></h1><br>
+Container tags are the tags that contain some data such as text, image, etc. There are several
+container tags in HTML.<br><br>
+
+A.<b>div tag</b> <br>
+div tag or division tag is used to make blocks or divisions in the document.
+<div> This is div block </div>  <br>
+
+B.<b>span tag</b><br>
+span is a container for inline content<br>
+<span> This is span block </span> <br> <br>
+
+C.<b>p tag</b> <br>
+Paragraph (get in new row)
+<p> This is a paragraph </p>  <br>
+
+D.<b>pre tag</b> <br>
+pre tag represents pre-formatted text (get in new row with some space)
+<pre> Hello World </pre>  <br>
+
+E.<b>code tag</b> <br>
+code tag is used to represent source codes <br>
+<code>
+import python <br>
+</code> <br><br> <br>
+
+
+
+
+
+
+
+
+
+<h1><b>3. Text Formatting</h1></b><br>
+
+
+Text formatting tags are used to format text or data of HTML documents. You can do certain
+things like creating italic, bold, strong text to make your document look more attractive and
+understandabl<br><br>
+
+A.<b> b Tag </b> <br>
+<b>I'm bold text</b><br> <br>
+
+B.<b>strong Tag</b> <br>
+<strong>I'm important text</strong><br> <br>
+
+
+C.<b>i Tag </b> <br>
+<i>I'm italic text</i><br> <br>
+
+
+D.<b> em Tag </b> <br>
+<em>Emphasized text</em><br> <br>
+
+E.<b> sub Tag
+ </b> <br>
+H<sub>2</sub>O
+<br><br>
+
+F.<b> sup Tag
+ </b> <br>
+A<sup>2</sup>
+<br><br><br>
+
+
+
+
+
+
+
+
+<h1><b>4. Lists
+</h1></b><br> 
+
+Lists can be either numerical, alphabetic, bullet, or other symbols. You can specify list type and
+list items in HTML for the clean document.<br><br>
+
+A.<b> ol Tag
+</b> <br>
+
+Ordered list starts with ( ol ) tag and each list item starts with ( li ) tag
+<br>
+
+
+<ol>
+<li>Data 1</li>
+<li>Data 2</li>
+<li>Data 3</li>
+</ol><br><br>
+
+B.<b>ul Tag</b> <br>
+<ul>
+<li>Your Data</li>
+<li>Your Data</li>
+</ul><br><br><br>
+
+
+
+
+
+
+
+
+<h1><b>5. Media
+</h1></b><br> 
+
+Media is anything that is present in digital form such as image, video, audio, etc.<br><br>
+
+
+A.<b>Audio Tag</b> <br>
+It is used to embed sound content in the document.
+<br>
+
+
+<audio controls>
+<source src="demo.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio><br><br>
+
+B.<b>Img Tag</b> <br>
+It is used to embed or import image in a webpage.<br>
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEhTCqAZ-RRT85AV8r8wUFXYTF-Sc2f89B9km8yO86_TRKWXD1DaTcTsh-H-VXcEiyOIvsqc5UuqkMusiHva5y8E91jg5wfEnIxrQCMzc8bq4cyHt95uzM-3dWfBQRdydSUK9vasstVt2gm-AB30Gxs2UqwNAcGppL-tC3Kj-sn8tLqMnGpucXRG5lXq=s1280" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" height="320" data-original-height="1280" data-original-width="720" src="https://blogger.googleusercontent.com/img/a/AVvXsEhTCqAZ-RRT85AV8r8wUFXYTF-Sc2f89B9km8yO86_TRKWXD1DaTcTsh-H-VXcEiyOIvsqc5UuqkMusiHva5y8E91jg5wfEnIxrQCMzc8bq4cyHt95uzM-3dWfBQRdydSUK9vasstVt2gm-AB30Gxs2UqwNAcGppL-tC3Kj-sn8tLqMnGpucXRG5lXq=s320"/></a></div><br><br>
+
+
+C.<b>video Tag
+</b> <br>
+It is used to embed video in the webpage.<br>
+
+
+
+
+
+<iframe controls=autoplay class="BLOG_video_class" allowfullscreen="" youtube-src-id="0bmE9XY3sOc" width="320" height="266" src="https://www.youtube.com/embed/0bmE9XY3sOc"></iframe>
+
+
+<br><br><br>
+
+
+
+
+
+
+
+
+<h1><b>6.Table
+ 
+</h1></b><br>
+
+A table is a collection of rows and columns. It is used to represent data in tabular form.<br>
+
+
+<ul><li><u>Table Structure</u></li></ul><br>
+
+<table>
+<caption>Demo Table</caption>
+<thead>
+<tr>
+<th >Column1</th>
+<th >Column2</th>
+<th >Column3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Data1</td>
+<td>Data2</td>
+<td>Data3</td>
+</tr>
+<tr>
+<td>Data1</td>
+<td>Data2</td>
+<td>Data3</td>
+
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td>&nbsp;</td>
+<td>Data2</td>
+<td>Data3</td>
+</tr>
+</tfoot>
+</table>
+
+
+
+
+
+
+<h1><b>7.Links</h1></b><br>
+Links are clickable text that can redirect you to some other page.
+<br>a tag 
+(a) or anchor tag defines a hyperlink. <br>
+<a href="http://unipune.ac.in/university_files/syllabi.htm">PUNE SYLLBUS</a> <br /> <br />
+<a href="http://cms.sinhgad.edu/sinhgad_engineering_institutes/skncoe_vadgaon/contact-us.aspx">skncoe_vadgaon </a>
+
+
+
+
+
+
+
+
+<h1><b>8.Form</h1></b><br>
+Sample Form <br>
+Form is used to collect user's input, generally user's data is sent to server for further processing. <br>
+<br><br>
+<html>
+ <head> <style>
+   .PQ{font-color: rgb(255, 0, 106); size: 50px}
+   * {background-color: rgb(249, 250, 246);}
+ </style>
+<title>HTML5 Input Type 14 example in webpage</title>
+ </head> 
+<body text=black>
+ <h2 class=.PQ textcolor="red"> Atharv's Form</h2>
+NAME: <input  type=textbox  size=50% value=name><br><br>
+
+CAST:<input type=radio >open
+<input type=radio >sc/st
+<input type=radio >Nt
+<input type=radio >Other <br><br>
+
+Qualification:<input type=checkbox >SSC
+<input type=checkbox>HSC
+<input type=checkbox >Engineering
+<input type=checkbox>M.B.B.S. <br><br>
+
+PASSWORD:<input type =password maxlength=5> <br><br>
+
+About your dream:<br>
+<Input type=text> <br>
+
+
+
+<br> Select Birthday Date: <input type="date" value="2003-03-18" id="mydate"><br><br>
+
+Birthday (date and time): <input type="datetime-local" value="2003-03-18" id="birthdaytime" name="birthdaytime"> <br><br>
+
+Add your homepage: <input type="url" id="homepage" name="homepage"><br><br>
+
+Quantity (between 1 and 5): <input type="number" id="quantity" name="quantity" min="1"
+max="5"><br><br> 
+
+ Enter your email: <input type="email" id="email" name="email"><br><br> 
+
+
+Select a time: <input type="time" id="appt" name="appt"><br><br> 
+
+Select a week: <input type="week" id="week" name="week"><br><br> 
+
+
+Search Google: <input type="search" id="gsearch" name="gsearch"><br><br> 
+
+
+Enter a phone number: <input type="tel" id="phone" name="phone" placeholder="123-4567-890"required><br><br>
+
+ Select a file: <input type="file" id="myfile" name="myfile"><br><br>
+
+ Birthday (date and time): <input type="datetime-local" id="birthdaytime" name="birthdaytime"> 
+ 
+ 
+ <h6></h6>
+ 
+ College City:<select>
+    <option> Parbhani</option>
+    <option>Pune</option>
+    <option>Aurangabad</option>
+    <option>Latur</option> <br> <br><br>
+    </select><br> <br><br>
+
+
+ <input type=submit value=submit >
+<input type=reset value=reset > 
+
+
+
+
+
+
+
+<h1><b>9.Characters & Symbols</h1></b><br>
+Some symbols are not directly present on the keyboard, but there are some ways to use them in
+HTML documents. We can display them either by entity name, decimal, or hexadecimal value.
+<br>
+<b>A.Copyright Symbol (©)</b><br>
+&copy ; (without space)
+&copy; <br><br>
+
+<b>B.Less than (<)</b><br>
+&lt ;<br><br>
+
+<b>C.Greater than (>)</b><br>
+&gt ;<br><br>
+
+<b>D.Ampersand (&)</b><br>
+&amp ; <br><br>
+
+<b>E.Dollar ($)</b><br>
+&dollar ; <br><br>
+
+<b>F.Random Text</b><br>
+Lorem 
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis accusantium est laborum unde maxime corrupti, tenetur minima qui necessitatibus iste quod aliquam numquam alias in esse quasi dignissimos. Beatae, iste?
+<br> <br><br>
+
+<b><h1>10.Semantic Elements</h1> </b><br><br>
+Semantic elements are those elements that are self describable, i.e., from their name itself, you
+can understand their meaning. <br><br>
+
+A.section tag <br>
+It defines a section in the document <br>
+<section>This is a section</section> <br><br>
+
+B.Article tag <br>
+It represents self-contained content <br>
+<article> Enter your data here </article> <br><br>
+
+C.Aside tag
+    It is used to place content in the sidebar <br>
+    <aside> Your data </aside>
+</body> 
+</html>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
